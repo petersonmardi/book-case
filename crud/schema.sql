@@ -1,7 +1,9 @@
+#IF EXISTS DROP student;
+
 CREATE TABLE student (
-  INTEGER PRIMARY KEY AUTOINCREMENT id,
-  TEXT "name",
-  TEXT "lastname",
-  TEXT UNIQUE "email",
-  INTEGER UNIQUE phone
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  "name" TEXT,
+  "lastname" TEXT,
+  "email" TEXT UNIQUE,
+  phone INTEGER UNIQUE
 );

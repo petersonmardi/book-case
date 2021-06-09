@@ -1,33 +1,38 @@
 body {
-      color: #3fa2c6;
+      color: #17566d;
       margin: 0px;
       padding: 0px;
      }
 header {
       padding: 25px;
-      background-color: #3fa2c6;
+      background-color: #17566d;
      }
 header a { text-decoration: none; color: 
       white; padding: 10px; 
       font-size: initial;
      }
 footer {
-      padding: 25px;
+      padding: 15px;
      }
 .content {
-      padding: 25px;
+      padding: 15px;
+      margin-left: auto;
+      margin-right: auto;
       width: 80%;
       height: auto;
      }
 fieldset input {
       margin-bottom: 15px;
-      color: #3fa2c6;
-      border: solid 1px #3fa2c6;
+      color: #17566d;
+      border: solid 1px #17566d;
       border-radius: 5px;
       padding: 10px;
      }
 input[type=submit] {
       background: none;
      }
-fieldset {border: solid 1px #3fa2c6;}
-.content legend {font-size: 18px;
+fieldset {
+      border: solid 1px #17566d;
+      border-radius: 5px;
+     }
+.content legend {font-size: 18px;}

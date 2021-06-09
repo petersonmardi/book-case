@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block head %}
+ {{ super() }}
+{% endblock %}
+ {% block content %}
+  <div class="content">
+    <center><h2>The Mardi Biblioteca</h2></center>
+    <form>
+     <fieldset>
+       <legend>Libro</legend>
+     <center>
+       <input required autofocus autocomplete="on" type="text" name="title" for="title" placeholder="Título">
+       <br>
+       <input required autocomplete="on" type="text" name="author" for="author" placeholder="Autor">
+       <br>
+       <input required autocomplete="on" type="text" name="year" for="year" placeholder="Año">
+       <br>
+       <input type="submit" value="Enviar">
+     </center>
+     </fieldset>
+    </form>
+  </div>
+ {% endblock %}

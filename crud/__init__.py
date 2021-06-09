@@ -17,7 +17,7 @@ def create_app():
                Estamos probando 
                nuestra app.<h1>"""
 
-    #from . import index
-    #app.register_blueprint(index.bp)
+    from . import index
+    app.register_blueprint(index.bp)
 
     return app
